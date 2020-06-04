@@ -1,0 +1,58 @@
+@font-face{
+    font-family: t;
+    src: url(/images/a.ttf);
+}
+@font-face{
+    font-family: ttitulo;
+    src: url(/images/b.otf);
+}
+@font-face{
+    font-family: texto;
+    src: url(/images/c.otf);
+}
+table{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-radius:35px;
+    padding-top:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: rgba(226, 234, 250, 0.712);
+}
+.b{
+    background-image: url(/images/fondo.jpg);
+}
+section{
+    background-color: white;
+    font-size: 400%;
+    text-align: center;
+    font-family: t;
+    color: rgb(0, 0, 0);
+}
+.text{
+    text-align: center;
+    font-family: ttitulo;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
+.text2{
+    font-family: texto;
+    font-size: large;
+}
+.i{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    font-family: ttiulo;
+    font-size: large;
+}
