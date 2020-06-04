@@ -1,0 +1,35 @@
+{{>header}}
+<div class="container">
+    <br><br>
+    <section><h1>Mis pintores preferidos</h1></section>
+    {{#if pintores}}
+        <table>
+            <thead>
+                <br>
+                <tr class="text">
+                    <td>ID</td>
+                    <td>Nombre</td>
+                    <td>Natalicio</td>
+                    <td>Nacionalidad</td>
+                    <td>Corriente</td>
+                    <td>Imagen</td>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each pintores}}
+                <tr class="text2">
+                    <td>{{_id}}</td>
+                    <td>{{nombre}}</td>
+                    <td>{{natalicio}}</td>
+                    <td>{{nacionalidad}}</td>
+                    <td>{{corriente}}</td>
+                    <td><img src="../images/{{pintura}}" class="i"></td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    {{else}}
+        <div>No se encuentran pintores</div>
+    {{/if}}
+</div>
+{{>footer}}
